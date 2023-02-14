@@ -1,0 +1,100 @@
+#employee {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    text-align-last: center;
+  }
+  
+  #employee td, #employee th {
+    border: 1px solid #ddd;
+    padding: 5px;
+  }
+  
+  #employee tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #employee tr:hover {background-color: #ddd;}
+  
+  #employee th {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: left;
+    background-color: slateblue;
+    color: white
+  }
+
+  .button-add {
+    background-color: blueviolet;
+    border: #04AA6D;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: solid;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .button-update {
+    background-color:green;
+    border: #04AA6D;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: dotted;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .button-logout {
+    background-color:rgb(7, 110, 194);
+    border: #04AA6D;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: dotted;
+    font-size: 16px;
+    margin: 0px 20px;
+    cursor: pointer;
+    float: right
+  }
+
+  .button-delete {
+    background-color: red;
+    border: #04AA6D;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: dotted;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .margintop{
+    margin-top: 10px;
+  }
+
+  .text {
+    color: green;
+    font-size: 35px;
+  }
+
+  .right {
+    margin-left: 1050px;
+    margin-bottom: 15px;   
+} 
+
+.emp-list {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  border-style: solid;
+  width: 90%;
+  border: 2px solid black;
+  margin: auto;
+  text-align: center;
+  align-items: center;
+  padding: 5px;
+}
