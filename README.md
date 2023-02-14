@@ -1,1 +1,1 @@
-# Employee-Management-System
+Employee-Management-System is a portal where we can manage and store the information of all the employees.Here,We can Read all the employees,create an employee,update and delete an employee from the system.
